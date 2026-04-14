@@ -1,17 +1,22 @@
+// src/App.jsx
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/Home";
+import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
+import Monitoring from "./pages/Monitoring";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <BrowserRouter>
-      <div style={{ background: "#07070f", minHeight: "100vh", color: "#f1f5f9" }}>
+      <div className="relative min-h-screen bg-[#0A0A0F]">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-        </Routes>
+        <main className="relative z-10">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/monitoring" element={<Monitoring />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+          </Routes>
+        </main>
       </div>
     </BrowserRouter>
   );
