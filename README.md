@@ -282,13 +282,15 @@ Predicts disaster risk from environmental inputs.
 
 ---
 
-## 👨‍💻 Author
+## 👥 Team
+FuncLexa
 
-**Mohammad Adnan Shakil**
-Computer Science Engineering — Presidency University, Bengaluru (2024–2028)
+Focused on building intelligent, real-world AI systems for impactful problem-solving.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Mohammad--Adnan--Shakil-181717?style=flat&logo=github)](https://github.com/Mohammad-Adnan-Shakil)
+Members:
 
+Mohammad Adnan Shakil, 
+Sultan Salauddin Ansari
 ---
 
 <div align="center">
